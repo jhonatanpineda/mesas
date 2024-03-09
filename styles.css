@@ -2,6 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    overflow: auto; /* Agregar desplazamiento general en la ventana del navegador */
 }
 
 #mapaMesas {
@@ -9,10 +10,8 @@ body {
     grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
     grid-gap: 10px;
     width: 100%;
-    height: calc(100vh - 50px); /* 50px para el menú contextual */
     padding: 10px;
     box-sizing: border-box;
-    overflow: auto; /* Agregar desplazamiento cuando sea necesario */
 }
 
 .mesa {
