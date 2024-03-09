@@ -12,6 +12,7 @@ body {
     height: calc(100vh - 50px); /* 50px para el menú contextual */
     padding: 10px;
     box-sizing: border-box;
+    overflow: auto; /* Agregar desplazamiento cuando sea necesario */
 }
 
 .mesa {
@@ -21,7 +22,6 @@ body {
     background-color: #f0f0f0;
     position: relative;
     cursor: pointer;
-    overflow: auto; /* Agregar desplazamiento cuando sea necesario */
 }
 
 .mesa.ocupada {
